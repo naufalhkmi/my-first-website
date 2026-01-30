@@ -1,0 +1,140 @@
+/* --- Global Styles & Variables --- */
+:root {
+  --primary-color: #0d6efd; 
+  --accent-color: #6443e8;  
+  --primary-light: #e7f1ff; 
+  --dark-text: #2c3e50;
+}
+
+/* Applying your requested gradient background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #60cebc, #144172);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.page-wrapper {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* --- Header & Navigation Bar --- */
+#header {
+  margin-bottom: 2rem;
+}
+#header .navbar {
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+#header .btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 0.6rem 1.5rem;
+}
+
+/* --- Hero Section --- */
+#hero {
+  padding: 4rem 0;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 1rem;
+}
+
+.btn-accent {
+  background-color: var(--accent-color);
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.8rem 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-accent:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+
+/* --- Features Section in a Card --- */
+#features {
+  padding: 3rem 0;
+}
+
+
+.feature-card {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 1px solid #e9ecef;
+  background-color: #fff;
+  /* This is the key for the hover animation */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* This is the hover effect */
+.feature-card:hover {
+  transform: translateY(-8px); /* Lifts the card up by 8 pixels */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* These rules ensure the text inside the card is dark */
+.feature-title {
+  font-weight: 700;
+  color: var(--dark-text);
+}
+
+.feature-description {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* --- Footer --- */
+footer {
+    padding-top: 2rem !important;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 991.98px) {
+  #hero {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .hero-title {
+    font-size: 2.8rem;
+  }
+}

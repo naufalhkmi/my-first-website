@@ -1,0 +1,19 @@
+body {
+  background: rgb(27, 94, 118);
+}
+
+#sidebarMenu {
+  width: 280px;
+  background: linear-gradient(120deg, #144172, #465b57);
+    color: white;
+}
+
+.nav-link {
+  border-radius: 50px;
+}
+
+.nav-link:hover {
+  background-color: lightslategray;
+  border-radius: 50px;
+}
+

@@ -1,0 +1,27 @@
+#sidebarMenu {
+  width: 280px;
+}
+
+.nav-link {
+  border-radius: 50px;
+}
+
+.nav-link:hover {
+  background-color: lightslategray;
+  border-radius: 50px;
+}
+
+.navbar{
+  background: linear-gradient(120deg, #d7eeea,#144172 );
+}
+
+body {
+  background:#144172
+
+
+}
+
+#sidebarMenu {
+  background: linear-gradient(120deg, #022750,#4ee0c7 );
+  color: white;
+}
